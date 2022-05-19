@@ -1,0 +1,145 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+header {
+    height: 40vh;
+    width: 1269px;
+    background:url('assets/images/especiarias.jpg.jpeg');
+    background-repeat: no repeat;
+    background-size: cover;
+    padding: 40px;
+    box-shadow: 10px 10px 40px 40px #000000;
+  
+}
+
+h1 {
+    height: 150px;
+    font-size:80px;
+    font-family: "Parisienne", cursive;
+    color:white;
+ 
+}
+
+nav {
+
+    position: absolute;
+    top:140px;
+    right: 0;
+}
+
+nav li {
+
+    display:inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+
+    text-transform:uppercase;
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 50px 10px 0;
+}
+
+nav a:hover {
+
+    color: #19c722;
+    text-decoration: underline;
+}
+
+
+main {
+
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+
+    margin: 40px 0;
+}
+
+form label, form legend {
+
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding: 20px;
+
+}
+
+.input-padrão {
+
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+
+    margin: 20px 0;
+}
+
+ 
+
+fieldset {
+
+    border: none;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: green;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px #000000;
+}
+
+.enviar:hover {
+
+    background: darkgreen;
+    transform: scale(1.2);
+}
+
+table {
+
+    margin: 20px;
+}
+
+thead {
+
+    background: dimgray;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+
+    border: 1px solid #90ddcc;
+    padding: 8px 15px;
+}
+
+footer {
+    
+
+    height: 30vh;
+    width: 100%;
+    background:url('assets/images/rodape1500.jpg');
+    background-repeat: no repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 50px 0 0 0;
+    box-shadow: 10px 10px 40px 40px #000000;
+}

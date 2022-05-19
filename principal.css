@@ -5,27 +5,31 @@
 
 header {
     height: 40vh;
-    width: 100vw;
+    width: 1269px;
     background:url('assets/images/especiarias.jpg.jpeg');
     background-repeat: no repeat;
     background-size: cover;
     padding: 40px;
+    box-shadow: 10px 10px 30px 20px #000000;
+
+   
   
 }
 
-h1 {
-    height: 150px;
-    font-size:80px;
-    font-family: "Parisienne", cursive;
-    color:white;
- 
-}
 
 .caixa {
     position: relative;
     width: 940px;
     margin:0 auto;
    
+}
+
+h1 {
+
+    font-size: 85px;
+    font-family: "Parisienne", cursive;
+    color: #ffffff;
+    text-shadow: 4px 4px green;
 }
 
 nav {
@@ -56,26 +60,68 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.titulocentralizado {
+.tituloprincipal {
     text-align: center;
     color: #000000;
     font-family: "Parisienne", cursive;
-    font-size: 40px;
+    font-size: 3em;
     padding: 20px;
+    margin: 0 0 auto;
+    clear: left;
+    text-shadow: 2px 2px green;
+    
 }
 
+.tituloprincipal:first-letter {
+    font-weight: 100;
+   
+}
+
+.tituloprincipal:before {
+
+    content: "✰ ";
+}
+
+.tituloprincipal:after {
+
+    content: " ✰";
+}
+
+
 .principal {
-    margin: 5%;
+    margin: 3em 0;
     padding: 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 60px auto;
     
+}
+
+.benefícios {
+    margin: 0 auto;
+    padding: 0; 
+    background: #FEFEFE;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px #0d6447;
+  
+}
+
+
+.utensilios {
+    width: 155px;
+    float: left;
+    margin: 0 20px 20px 20px;
+
 }
 .missão {
 
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     color: #19c722;
     font-family: 'Syncopate', sans-serif;
     font-weight: bold;
+    margin: 0 0 20px;
 }
 
 .descrição {
@@ -92,7 +138,8 @@ nav a:hover {
     border-radius: 20px;
     background-repeat: no repeat;
     background-size: cover;
-    margin-left: 400px;
+    margin: 0 auto;
+    
 }
 .itens {
     display: inline-block;
@@ -113,17 +160,42 @@ nav a:hover {
     
 }
 
+.mapa {
+    padding: 1em 0;
+    background: #FEFEFE;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.mapa p {
+    margin: 0 0 1em;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 940px;
+    padding: 1em;
+
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
 
 footer {
     
 
     height: 30vh;
-    width: 100vw;
+    width: 100%;
     background:url('assets/images/rodape1500.jpg');
     background-repeat: no repeat;
     background-size: cover;
     padding: 0;
     margin: 50px 0 0 0;
+    box-shadow: 10px 10px 40px 40px #000000;
    
     
 
@@ -133,5 +205,20 @@ footer {
     text-align: center;
     color: #ffffff;
     font-size: 13px;
-    margin: 20px 0 0;
+    margin: 0 20px 60px;
 }
+
+.video {
+    
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.video-conteudo {
+    width: 640px;
+    margin: 0 auto; 
+
+}
+
